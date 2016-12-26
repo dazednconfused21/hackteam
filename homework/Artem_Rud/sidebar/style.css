@@ -1,0 +1,175 @@
+/* http://meyerweb.com/eric/tools/css/reset/
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+* {
+	box-sizing: border-box;
+}
+body {
+	background: url("img/bg.png") #fff;
+}
+header {
+	width: 960px;
+	margin: 0 auto;
+}
+.logo-search {
+	width: 960px;
+	height: 86px;
+	clear: both;
+	position: inherit;
+}
+.logo {
+	width: 50%;
+	float: left;
+	position: relative;
+}
+.logo a {
+	position: absolute;
+	padding-top: 25px;
+}
+.search {
+	width: 50%;
+	float: right;
+	position: relative;
+}
+.search img {
+	position: relative;
+	float: right;
+	padding-top: 27px;
+}
+.top-menu {
+	width: inherit;
+	height: 40px;
+	background: #f3f3f3;
+	border: 1px solid #e7e7e7;
+}
+.top-menu ul li {
+	float: left;
+}
+.top-menu ul li a {
+	color: #b2b2b2;
+	padding: 0 33px;
+	font: 14px 'Oswald', sans-serif;
+	text-transform: uppercase;
+	text-decoration: none;
+	line-height: 40px;
+	display: block;
+	height: 40px;
+}
+.contact {
+	width: 125px;
+}
+
+.top-menu ul li a:hover {
+	background-color: #29c5e6;
+	color: #fff;
+}
+.our-projects {
+	text-transform: uppercase;
+	font: 40px 'Oswald';
+	letter-spacing: 1px;
+	color: #7e7e7e;;
+}
+.our-projects h1 {
+	padding: 16px 0 0 30px;
+	position: relative;
+}
+.our-projects h1::before {
+	content: ' ';
+	width: 20px;
+	height: 35px;
+	background-image: url("img/before.png");
+	position: absolute;
+	left: 0;
+	top: 30px;
+}
+.our-projects h1::after {
+	content: ' ';
+	width: 672px;
+	height: 35px;
+	background-image: url(img/after.png);
+	opacity: 0.2;
+	position: absolute;
+	left: 288px;
+	top: 30px;
+}
+section {
+	width: 960px;
+	margin: 0 auto;
+	padding-top: 30px;
+}
+.sidebar {
+	width: 265px;
+	background-color: #f3f3f3;
+	border-right: 1px solid #e7e7e7;
+	border-top: 1px solid #e7e7e7;
+
+}
+.sidebar ul li {
+	border-bottom: 1px solid #e7e7e7;
+	border-left: 1px solid #e7e7e7;
+	position: relative;
+}
+.menu-item a {
+	color: #b2b2b2;
+	font: 14px 'Oswald', sans-serif;
+	text-transform: uppercase;
+	text-decoration: none;
+	display: block;
+	position: relative;
+	padding: 12px 0 12px 30px;
+}
+.menu-item a::before {
+	content: ' ';
+	width: 8px;
+	height: 8px;
+	background-color: #8f8f8f;
+	position: absolute;
+	left: 13px;
+	top: 19px;
+}
+.menu-item-active a::before {
+	background-color: #29c5e6;
+}
+.menu-item a:hover {
+	color: #29c5e6;
+}
