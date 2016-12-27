@@ -112,11 +112,12 @@ table {
 	border: 1px solid #e7e7e7;
 }
 .top-menu ul li {
+	width: 12.5%;
 	float: left;
+	text-align: center;
 }
 .top-menu ul li a {
 	color: #b2b2b2;
-	padding: 0 33px;
 	font: 14px 'Oswald', sans-serif;
 	text-transform: uppercase;
 	text-decoration: none;
